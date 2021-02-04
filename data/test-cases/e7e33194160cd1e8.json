@@ -1,0 +1,359 @@
+{
+  "uid" : "e7e33194160cd1e8",
+  "name" : "FINANCIAL INSTITUTION registration with DISABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+  "fullName" : "UC.001 Register Head Office [HO] (by sysAdmin): FINANCIAL INSTITUTION registration with DISABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+  "historyId" : "66ac47a7a8165afa7b8ed8f3f14d9b19",
+  "time" : {
+    "start" : 1612440631040,
+    "stop" : 1612440647892,
+    "duration" : 16852
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "CommonStepDefs.kt:58",
+    "time" : {
+      "start" : 1612440631041,
+      "stop" : 1612440633196,
+      "duration" : 2155
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "HeadOfficeViewStepDefs.kt:32",
+    "time" : {
+      "start" : 1612440633197,
+      "stop" : 1612440633199,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "HeadOfficeRegistrationStepDefs.kt:61",
+    "time" : {
+      "start" : 1612440633199,
+      "stop" : 1612440633200,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  sysAdmin is on the Company List page",
+      "time" : {
+        "start" : 1612440633201,
+        "stop" : 1612440640382,
+        "duration" : 7181
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [REGISTER HEAD OFFICE] button",
+      "time" : {
+        "start" : 1612440640382,
+        "stop" : 1612440641093,
+        "duration" : 711
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  dropdown appears with [CORPORATE] & [FINANCIAL INSTITUTION] as options",
+      "time" : {
+        "start" : 1612440641093,
+        "stop" : 1612440641120,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin picks FINANCIAL INSTITUTION",
+      "time" : {
+        "start" : 1612440641120,
+        "stop" : 1612440641829,
+        "duration" : 709
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System loads an empty Head Office Input Page",
+      "time" : {
+        "start" : 1612440641829,
+        "stop" : 1612440642145,
+        "duration" : 316
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin enters all the mandatory information",
+      "time" : {
+        "start" : 1612440642145,
+        "stop" : 1612440645495,
+        "duration" : 3350
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin select ENABLED option for Two-Steps Verifications",
+      "time" : {
+        "start" : 1612440645495,
+        "stop" : 1612440645559,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin select DISABLED option for Four-Eyes Approval",
+      "time" : {
+        "start" : 1612440645559,
+        "stop" : 1612440645617,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  sysAdmin click on [SAVE] button",
+      "time" : {
+        "start" : 1612440645617,
+        "stop" : 1612440645683,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  System sets company status to ACTIVE",
+      "time" : {
+        "start" : 1612440645683,
+        "stop" : 1612440647263,
+        "duration" : 1580
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "CommonStepDefs.kt:62",
+    "time" : {
+      "start" : 1612440647263,
+      "stop" : 1612440647892,
+      "duration" : 629
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "HeadOfficeViewStepDefs.kt:36",
+    "time" : {
+      "start" : 1612440647892,
+      "stop" : 1612440647892,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "HeadOfficeRegistrationStepDefs.kt:65",
+    "time" : {
+      "start" : 1612440647892,
+      "stop" : 1612440647892,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "story",
+    "value" : "FINANCIAL INSTITUTION registration with DISABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583"
+  }, {
+    "name" : "host",
+    "value" : "LP20094"
+  }, {
+    "name" : "thread",
+    "value" : "3376@LP20094.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "suite",
+    "value" : "UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "testClass",
+    "value" : "FINANCIAL INSTITUTION registration with DISABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber2jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "2Step",
+    "value" : "ENABLED"
+  }, {
+    "name" : "4Eyes",
+    "value" : "DISABLED"
+  }, {
+    "name" : "type",
+    "value" : "FINANCIAL INSTITUTION"
+  } ],
+  "links" : [ {
+    "name" : "GVP-2583",
+    "url" : "https://gvp.atlassian.net/browse/GVP-2583",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7e33194160cd1e8.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ "ENABLED", "DISABLED", "FINANCIAL INSTITUTION" ]
+}

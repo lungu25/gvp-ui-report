@@ -1,0 +1,161 @@
+[ {
+  "uid" : "e7e33194160cd1e8",
+  "name" : "FINANCIAL INSTITUTION registration with DISABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+  "time" : {
+    "start" : 1612440631040,
+    "stop" : 1612440647892,
+    "duration" : 16852
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7662a410aae7fbc5",
+  "name" : "Square Logo CORPORATE GVP-1011",
+  "time" : {
+    "start" : 1612440776491,
+    "stop" : 1612440797015,
+    "duration" : 20524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c07a3f04c0460879",
+  "name" : "Horizontal Logo CORPORATE GVP-1012",
+  "time" : {
+    "start" : 1612440729671,
+    "stop" : 1612440749985,
+    "duration" : 20314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "226273618a63ea1b",
+  "name" : "CORPORATE registration with ENABLED state for 4-Eyes Approval and DISABLED state for Two-Steps Verifications GVP-2583",
+  "time" : {
+    "start" : 1612440491176,
+    "stop" : 1612440508855,
+    "duration" : 17679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d44ff3739f72c1f6",
+  "name" : "Company Type View FINANCIAL INSTITUTION GVP-1080",
+  "time" : {
+    "start" : 1612440707462,
+    "stop" : 1612440726534,
+    "duration" : 19072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c757a1a834005d4",
+  "name" : "Horizontal Logo FINANCIAL INSTITUTION GVP-1012",
+  "time" : {
+    "start" : 1612440753151,
+    "stop" : 1612440773358,
+    "duration" : 20207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6d9df3db407728f",
+  "name" : "CORPORATE registration with ENABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+  "time" : {
+    "start" : 1612440531597,
+    "stop" : 1612440549055,
+    "duration" : 17458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fd369c73a88b44a",
+  "name" : "FINANCIAL INSTITUTION registration with ENABLED state for 4-Eyes Approval and DISABLED state for Two-Steps Verifications GVP-2583",
+  "time" : {
+    "start" : 1612440611044,
+    "stop" : 1612440627863,
+    "duration" : 16819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92fb9e87d86dbc88",
+  "name" : "FINANCIAL INSTITUTION registration with DISABLED state for 4-Eyes Approval and DISABLED state for Two-Steps Verifications GVP-2583",
+  "time" : {
+    "start" : 1612440591964,
+    "stop" : 1612440607892,
+    "duration" : 15928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d418c037201ef0e0",
+  "name" : "UI default state for 4-Eyes Approval and Two-Steps Verifications GVP-2581",
+  "time" : {
+    "start" : 1612440651065,
+    "stop" : 1612440664962,
+    "duration" : 13897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6837f4d6edc31e8e",
+  "name" : "Company Type View CORPORATE GVP-1080",
+  "time" : {
+    "start" : 1612440685642,
+    "stop" : 1612440704276,
+    "duration" : 18634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edd60b940d86b370",
+  "name" : "CORPORATE registration with DISABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+  "time" : {
+    "start" : 1612440512042,
+    "stop" : 1612440528467,
+    "duration" : 16425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79509bf94ddb15b3",
+  "name" : "UI default state for 4-Eyes Approval and Two-Steps Verifications GVP-2581",
+  "time" : {
+    "start" : 1612440668159,
+    "stop" : 1612440682501,
+    "duration" : 14342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da93b9aa3b0cbc8",
+  "name" : "Square Logo FINANCIAL INSTITUTION GVP-1011",
+  "time" : {
+    "start" : 1612440800138,
+    "stop" : 1612440820824,
+    "duration" : 20686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c867cb4699c8224",
+  "name" : "CORPORATE registration with DISABLED state for 4-Eyes Approval and DISABLED state for Two-Steps Verifications GVP-2583",
+  "time" : {
+    "start" : 1612440552227,
+    "stop" : 1612440569212,
+    "duration" : 16985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e1c0bff3fd76b0b",
+  "name" : "FINANCIAL INSTITUTION registration with ENABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+  "time" : {
+    "start" : 1612440572425,
+    "stop" : 1612440588812,
+    "duration" : 16387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
