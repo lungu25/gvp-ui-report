@@ -1,0 +1,359 @@
+{
+  "uid" : "5eae3ccf87685b02",
+  "name" : "CORPORATE registration with ENABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+  "fullName" : "UC.001 Register Head Office [HO] (by sysAdmin): CORPORATE registration with ENABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+  "historyId" : "abbc2dc5f6005d2501ce24c8c6eeb3f",
+  "time" : {
+    "start" : 1614858846332,
+    "stop" : 1614858887459,
+    "duration" : 41127
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "LambdaGlue.java:22",
+    "time" : {
+      "start" : 1614858846336,
+      "stop" : 1614858848846,
+      "duration" : 2510
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "LambdaGlue.java:22",
+    "time" : {
+      "start" : 1614858848846,
+      "stop" : 1614858848864,
+      "duration" : 18
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  sysAdmin is on the Company List page",
+      "time" : {
+        "start" : 1614858848867,
+        "stop" : 1614858860940,
+        "duration" : 12073
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [REGISTER HEAD OFFICE] button from header",
+      "time" : {
+        "start" : 1614858860941,
+        "stop" : 1614858862978,
+        "duration" : 2037
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  dropdown appears with [CORPORATE] & [FINANCIAL INSTITUTION] as options",
+      "time" : {
+        "start" : 1614858862979,
+        "stop" : 1614858863223,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin picks CORPORATE",
+      "time" : {
+        "start" : 1614858863224,
+        "stop" : 1614858864598,
+        "duration" : 1374
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System loads an empty Head Office Input Page",
+      "time" : {
+        "start" : 1614858864598,
+        "stop" : 1614858867208,
+        "duration" : 2610
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin enters all the mandatory information",
+      "time" : {
+        "start" : 1614858867209,
+        "stop" : 1614858881459,
+        "duration" : 14250
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin select ENABLED option for Two-Steps Verifications",
+      "time" : {
+        "start" : 1614858881460,
+        "stop" : 1614858881783,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin select ENABLED option for Four-Eyes Approval",
+      "time" : {
+        "start" : 1614858881783,
+        "stop" : 1614858882298,
+        "duration" : 515
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  sysAdmin click on [SAVE] button from Head Office Input Page",
+      "time" : {
+        "start" : 1614858882298,
+        "stop" : 1614858882513,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [YES] button from Company Registration Popup",
+      "time" : {
+        "start" : 1614858882514,
+        "stop" : 1614858882784,
+        "duration" : 270
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  System sets company status to ACTIVE",
+      "time" : {
+        "start" : 1614858882784,
+        "stop" : 1614858884307,
+        "duration" : 1523
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "LambdaGlue.java:252",
+    "time" : {
+      "start" : 1614858884308,
+      "stop" : 1614858887455,
+      "duration" : 3147
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "LambdaGlue.java:252",
+    "time" : {
+      "start" : 1614858887455,
+      "stop" : 1614858887455,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Functional"
+  }, {
+    "name" : "tag",
+    "value" : "HeadOfficeView"
+  }, {
+    "name" : "tag",
+    "value" : "Regression1"
+  }, {
+    "name" : "host",
+    "value" : "LP20094"
+  }, {
+    "name" : "thread",
+    "value" : "19756@LP20094.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "story",
+    "value" : "CORPORATE registration with ENABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583"
+  }, {
+    "name" : "suite",
+    "value" : "UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "testClass",
+    "value" : "CORPORATE registration with ENABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:/C:/Work_Projects/e2e-ui-tests/test/resources/features/registerHeadOffice_UC001/RegisterHeadOffice.feature"
+  }, {
+    "name" : "package",
+    "value" : "test.resources.features.registerHeadOffice_UC001.RegisterHeadOffice_feature.UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "2Step",
+    "value" : "ENABLED"
+  }, {
+    "name" : "4Eyes",
+    "value" : "ENABLED"
+  }, {
+    "name" : "type",
+    "value" : "CORPORATE"
+  } ],
+  "links" : [ {
+    "name" : "GVP-2583",
+    "url" : "https://gvp.atlassian.net/browse/GVP-2583",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Functional", "HeadOfficeView", "Regression1" ]
+  },
+  "source" : "5eae3ccf87685b02.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ "ENABLED", "ENABLED", "CORPORATE" ]
+}

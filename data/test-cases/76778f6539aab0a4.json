@@ -1,0 +1,281 @@
+{
+  "uid" : "76778f6539aab0a4",
+  "name" : "Company Type View FINANCIAL INSTITUTION GVP-1080",
+  "fullName" : "UC.001 Register Head Office [HO] (by sysAdmin): Company Type View FINANCIAL INSTITUTION GVP-1080",
+  "historyId" : "dd12089519b33c325b65b6581367667d",
+  "time" : {
+    "start" : 1614858902895,
+    "stop" : 1614858968832,
+    "duration" : 65937
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "LambdaGlue.java:22",
+    "time" : {
+      "start" : 1614858902903,
+      "stop" : 1614858905553,
+      "duration" : 2650
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "LambdaGlue.java:22",
+    "time" : {
+      "start" : 1614858905554,
+      "stop" : 1614858905564,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  sysAdmin is on empty FINANCIAL INSTITUTION Head Office Input Page",
+      "time" : {
+        "start" : 1614858905568,
+        "stop" : 1614858931315,
+        "duration" : 25747
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin enters all the mandatory information",
+      "time" : {
+        "start" : 1614858931316,
+        "stop" : 1614858954991,
+        "duration" : 23675
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  sysAdmin click on [SAVE] button from Head Office Input Page",
+      "time" : {
+        "start" : 1614858954991,
+        "stop" : 1614858955308,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [YES] button from Company Registration Popup",
+      "time" : {
+        "start" : 1614858955309,
+        "stop" : 1614858956061,
+        "duration" : 752
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  System loads the Head Office Details Page",
+      "time" : {
+        "start" : 1614858956061,
+        "stop" : 1614858960852,
+        "duration" : 4791
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  'Company Type' field is view only",
+      "time" : {
+        "start" : 1614858960853,
+        "stop" : 1614858961426,
+        "duration" : 573
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  'Company Type' field is displaying Head Office details",
+      "time" : {
+        "start" : 1614858961427,
+        "stop" : 1614858961892,
+        "duration" : 465
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "LambdaGlue.java:252",
+    "time" : {
+      "start" : 1614858961893,
+      "stop" : 1614858968828,
+      "duration" : 6935
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "LambdaGlue.java:252",
+    "time" : {
+      "start" : 1614858968828,
+      "stop" : 1614858968828,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Functional"
+  }, {
+    "name" : "tag",
+    "value" : "RegisterHO"
+  }, {
+    "name" : "tag",
+    "value" : "Regression1"
+  }, {
+    "name" : "host",
+    "value" : "LP20094"
+  }, {
+    "name" : "thread",
+    "value" : "6860@LP20094.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "story",
+    "value" : "Company Type View FINANCIAL INSTITUTION GVP-1080"
+  }, {
+    "name" : "suite",
+    "value" : "UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "testClass",
+    "value" : "Company Type View FINANCIAL INSTITUTION GVP-1080"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:/C:/Work_Projects/e2e-ui-tests/test/resources/features/registerHeadOffice_UC001/RegisterHeadOffice.feature"
+  }, {
+    "name" : "package",
+    "value" : "test.resources.features.registerHeadOffice_UC001.RegisterHeadOffice_feature.UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "type",
+    "value" : "FINANCIAL INSTITUTION"
+  } ],
+  "links" : [ {
+    "name" : "GVP-1080",
+    "url" : "https://gvp.atlassian.net/browse/GVP-1080",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Functional", "Regression1", "RegisterHO" ]
+  },
+  "source" : "76778f6539aab0a4.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ "FINANCIAL INSTITUTION" ]
+}

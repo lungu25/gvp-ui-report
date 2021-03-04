@@ -1,0 +1,1169 @@
+{
+  "uid" : "92d97658683bcd4",
+  "name" : "FINANCIAL INSTITUTION Update attachments and logo GVP-2862",
+  "fullName" : "UC.001 Register Head Office [HO] (by sysAdmin): FINANCIAL INSTITUTION Update attachments and logo GVP-2862",
+  "historyId" : "ff782d5e4e6fa56ec4bce2232a5ee58d",
+  "time" : {
+    "start" : 1614859083421,
+    "stop" : 1614859134989,
+    "duration" : 51568
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "LambdaGlue.java:22",
+    "time" : {
+      "start" : 1614859083425,
+      "stop" : 1614859085879,
+      "duration" : 2454
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "LambdaGlue.java:22",
+    "time" : {
+      "start" : 1614859085880,
+      "stop" : 1614859085897,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  sysAdmin is on empty FINANCIAL INSTITUTION Head Office Input Page",
+      "time" : {
+        "start" : 1614859085900,
+        "stop" : 1614859102153,
+        "duration" : 16253
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin enter all the inputs on Company Input Page",
+      "time" : {
+        "start" : 1614859102154,
+        "stop" : 1614859108338,
+        "duration" : 6184
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin select a random Country",
+      "time" : {
+        "start" : 1614859108338,
+        "stop" : 1614859110959,
+        "duration" : 2621
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin upload 1 valid format attachment in Company Id Documents field",
+      "time" : {
+        "start" : 1614859110960,
+        "stop" : 1614859111088,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin upload 1 valid format attachment in Terms of Use field",
+      "time" : {
+        "start" : 1614859111088,
+        "stop" : 1614859111191,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin upload file for Square Logo that is either .JPG, .SVG or .PNG",
+      "time" : {
+        "start" : 1614859111191,
+        "stop" : 1614859111291,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin upload file for Horizontal Logo that is either .JPG, .SVG or .PNG",
+      "time" : {
+        "start" : 1614859111291,
+        "stop" : 1614859111397,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [SAVE] button from Head Office Input Page",
+      "time" : {
+        "start" : 1614859111397,
+        "stop" : 1614859111556,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [YES] button from Company Registration Popup",
+      "time" : {
+        "start" : 1614859111556,
+        "stop" : 1614859111739,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System sets company status to ACTIVE",
+      "time" : {
+        "start" : 1614859111739,
+        "stop" : 1614859113024,
+        "duration" : 1285
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System loads the Head Office Details Page",
+      "time" : {
+        "start" : 1614859113025,
+        "stop" : 1614859113687,
+        "duration" : 662
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin saves all HREF and SRC attribute links from all attachments",
+      "time" : {
+        "start" : 1614859113687,
+        "stop" : 1614859113815,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  sysAdmin click on [EDIT] button from Head Office View Page",
+      "time" : {
+        "start" : 1614859113815,
+        "stop" : 1614859113941,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  click on DELETE icon from Square logo field",
+      "time" : {
+        "start" : 1614859113942,
+        "stop" : 1614859114600,
+        "duration" : 658
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  upload other logo img in Square logo field",
+      "time" : {
+        "start" : 1614859114600,
+        "stop" : 1614859114662,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  sysAdmin click on [SAVE] button from Head Office Input Page",
+      "time" : {
+        "start" : 1614859114662,
+        "stop" : 1614859114806,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System loads the Head Office Details Page",
+      "time" : {
+        "start" : 1614859114806,
+        "stop" : 1614859115779,
+        "duration" : 973
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin save second Square logo SRC link",
+      "time" : {
+        "start" : 1614859115779,
+        "stop" : 1614859115802,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  First Download SRC link for Square logo is inactive and will redirect to BlobNotFound Page",
+      "time" : {
+        "start" : 1614859115802,
+        "stop" : 1614859116485,
+        "duration" : 683
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Second Download SRC link for Square logo is active and will download second updated logo",
+      "time" : {
+        "start" : 1614859116485,
+        "stop" : 1614859116997,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments are displayed for fields: Square logo, Horizontal logo, Company Id Documents, Terms of Use",
+      "time" : {
+        "start" : 1614859116997,
+        "stop" : 1614859117573,
+        "duration" : 576
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments can be downloaded by direct link for fields: Horizontal logo, Company Id Documents, Terms of Use",
+      "time" : {
+        "start" : 1614859117573,
+        "stop" : 1614859117988,
+        "duration" : 415
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments can be downloaded by direct click for fields: Company Id Documents, Terms of Use",
+      "time" : {
+        "start" : 1614859117988,
+        "stop" : 1614859118976,
+        "duration" : 988
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [EDIT] button from Head Office View Page",
+      "time" : {
+        "start" : 1614859118976,
+        "stop" : 1614859119179,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  click on DELETE icon from Horizontal logo field",
+      "time" : {
+        "start" : 1614859119179,
+        "stop" : 1614859119855,
+        "duration" : 676
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  upload other logo img in Horizontal logo field",
+      "time" : {
+        "start" : 1614859119855,
+        "stop" : 1614859119917,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [SAVE] button from Head Office Input Page",
+      "time" : {
+        "start" : 1614859119917,
+        "stop" : 1614859120041,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System loads the Head Office Details Page",
+      "time" : {
+        "start" : 1614859120041,
+        "stop" : 1614859121114,
+        "duration" : 1073
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin save second Horizontal logo SRC link",
+      "time" : {
+        "start" : 1614859121114,
+        "stop" : 1614859121132,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  First Download SRC link for Horizontal logo is inactive and will redirect to BlobNotFound Page",
+      "time" : {
+        "start" : 1614859121132,
+        "stop" : 1614859121791,
+        "duration" : 659
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Second Download SRC link for Horizontal logo is active and will download second updated logo",
+      "time" : {
+        "start" : 1614859121791,
+        "stop" : 1614859122191,
+        "duration" : 400
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments are displayed for fields: Square logo, Horizontal logo, Company Id Documents, Terms of Use",
+      "time" : {
+        "start" : 1614859122191,
+        "stop" : 1614859122664,
+        "duration" : 473
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments can be downloaded by direct link for fields: Square logo, Company Id Documents, Terms of Use",
+      "time" : {
+        "start" : 1614859122664,
+        "stop" : 1614859123023,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments can be downloaded by direct click for fields: Company Id Documents, Terms of Use",
+      "time" : {
+        "start" : 1614859123024,
+        "stop" : 1614859123680,
+        "duration" : 656
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [EDIT] button from Head Office View Page",
+      "time" : {
+        "start" : 1614859123680,
+        "stop" : 1614859123847,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  click on DELETE icon from Company Id Documents field",
+      "time" : {
+        "start" : 1614859123848,
+        "stop" : 1614859124563,
+        "duration" : 715
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  upload other document attachment in Company Id Documents field",
+      "time" : {
+        "start" : 1614859124563,
+        "stop" : 1614859124636,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [SAVE] button from Head Office Input Page",
+      "time" : {
+        "start" : 1614859124637,
+        "stop" : 1614859124759,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System loads the Head Office Details Page",
+      "time" : {
+        "start" : 1614859124760,
+        "stop" : 1614859125828,
+        "duration" : 1068
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin save second Company Id Documents SRC link",
+      "time" : {
+        "start" : 1614859125828,
+        "stop" : 1614859125857,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  First Download SRC link for Company Id Documents is inactive and will redirect to BlobNotFound Page",
+      "time" : {
+        "start" : 1614859125857,
+        "stop" : 1614859126626,
+        "duration" : 769
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Second Download SRC link for Company Id Documents is active and will download second updated document",
+      "time" : {
+        "start" : 1614859126627,
+        "stop" : 1614859127026,
+        "duration" : 399
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments are displayed for fields: Square logo, Horizontal logo, Company Id Documents, Terms of Use",
+      "time" : {
+        "start" : 1614859127026,
+        "stop" : 1614859127629,
+        "duration" : 603
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments can be downloaded by direct link for fields: Square logo, Horizontal logo, Terms of Use",
+      "time" : {
+        "start" : 1614859127630,
+        "stop" : 1614859128210,
+        "duration" : 580
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments can be downloaded by direct click for fields: Company Id Documents, Terms of Use",
+      "time" : {
+        "start" : 1614859128211,
+        "stop" : 1614859129024,
+        "duration" : 813
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [EDIT] button from Head Office View Page",
+      "time" : {
+        "start" : 1614859129025,
+        "stop" : 1614859129154,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  click on DELETE icon from Terms of Use field",
+      "time" : {
+        "start" : 1614859129154,
+        "stop" : 1614859129851,
+        "duration" : 697
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  upload other document attachment in Terms of Use field",
+      "time" : {
+        "start" : 1614859129851,
+        "stop" : 1614859129937,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin click on [SAVE] button from Head Office Input Page",
+      "time" : {
+        "start" : 1614859129937,
+        "stop" : 1614859130069,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System loads the Head Office Details Page",
+      "time" : {
+        "start" : 1614859130069,
+        "stop" : 1614859130986,
+        "duration" : 917
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  sysAdmin save second Terms of Use SRC link",
+      "time" : {
+        "start" : 1614859130986,
+        "stop" : 1614859131020,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  First Download SRC link for Terms of Use is inactive and will redirect to BlobNotFound Page",
+      "time" : {
+        "start" : 1614859131020,
+        "stop" : 1614859131678,
+        "duration" : 658
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Second Download SRC link for Terms of Use is active and will download second updated document",
+      "time" : {
+        "start" : 1614859131678,
+        "stop" : 1614859132030,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments are displayed for fields: Square logo, Horizontal logo, Company Id Documents, Terms of Use",
+      "time" : {
+        "start" : 1614859132030,
+        "stop" : 1614859132661,
+        "duration" : 631
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments can be downloaded by direct link for fields: Square logo, Horizontal logo, Company Id Documents",
+      "time" : {
+        "start" : 1614859132661,
+        "stop" : 1614859133408,
+        "duration" : 747
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  attachments can be downloaded by direct click for fields: Company Id Documents, Terms of Use",
+      "time" : {
+        "start" : 1614859133408,
+        "stop" : 1614859134244,
+        "duration" : 836
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 56,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "LambdaGlue.java:252",
+    "time" : {
+      "start" : 1614859134244,
+      "stop" : 1614859134986,
+      "duration" : 742
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "LambdaGlue.java:252",
+    "time" : {
+      "start" : 1614859134986,
+      "stop" : 1614859134986,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "BlobStorage"
+  }, {
+    "name" : "tag",
+    "value" : "E2E"
+  }, {
+    "name" : "tag",
+    "value" : "RegisterHO"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "tag",
+    "value" : "Regression1"
+  }, {
+    "name" : "host",
+    "value" : "LP20094"
+  }, {
+    "name" : "thread",
+    "value" : "7804@LP20094.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "story",
+    "value" : "FINANCIAL INSTITUTION Update attachments and logo GVP-2862"
+  }, {
+    "name" : "suite",
+    "value" : "UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "testClass",
+    "value" : "FINANCIAL INSTITUTION Update attachments and logo GVP-2862"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:/C:/Work_Projects/e2e-ui-tests/test/resources/features/registerHeadOffice_UC001/RegisterHeadOffice.feature"
+  }, {
+    "name" : "package",
+    "value" : "test.resources.features.registerHeadOffice_UC001.RegisterHeadOffice_feature.UC.001 Register Head Office [HO] (by sysAdmin)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "type",
+    "value" : "FINANCIAL INSTITUTION"
+  } ],
+  "links" : [ {
+    "name" : "GVP-2862",
+    "url" : "https://gvp.atlassian.net/browse/GVP-2862",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Regression1", "RegisterHO", "BlobStorage", "Regression", "E2E" ]
+  },
+  "source" : "92d97658683bcd4.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ "FINANCIAL INSTITUTION" ]
+}

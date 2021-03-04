@@ -1,5 +1,25 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: GuaranteeRequestViewPage.closeBtn (tried for 15 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Bank Guarantee Positive flow default mandatory fields GVP-235",
+        "uid" : "32df8e82eb2218d9",
+        "parentUid" : "435e124e5119a1bcea6ff918c1a55dd3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614858846157,
+          "stop" : 1614858887179,
+          "duration" : 41022
+        },
+        "flaky" : false,
+        "parameters" : [ "Bank Guarantee" ]
+      } ],
+      "uid" : "435e124e5119a1bcea6ff918c1a55dd3"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

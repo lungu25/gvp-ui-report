@@ -1,0 +1,707 @@
+{
+  "uid" : "3e92e46957d7aae1",
+  "name" : "Bank Guarantee Positive flow default mandatory fields GVP-235",
+  "fullName" : "UC.010 Create Guarantee Request (by applicant): Bank Guarantee Positive flow default mandatory fields GVP-235",
+  "historyId" : "ce9bbb28c460cc48de70aa1213ef6e4a",
+  "time" : {
+    "start" : 1614860701902,
+    "stop" : 1614860735627,
+    "duration" : 33725
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ {
+    "name" : "LambdaGlue.java:22",
+    "time" : {
+      "start" : 1614860701905,
+      "stop" : 1614860704068,
+      "duration" : 2163
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "LambdaGlue.java:22",
+    "time" : {
+      "start" : 1614860704068,
+      "stop" : 1614860704073,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  APPLICANT navigates to the Dashboard Page",
+      "time" : {
+        "start" : 1614860704074,
+        "stop" : 1614860713643,
+        "duration" : 9569
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT click on [REQUEST ISSUANCE] button from header",
+      "time" : {
+        "start" : 1614860713644,
+        "stop" : 1614860713805,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT picks Bank Guarantee",
+      "time" : {
+        "start" : 1614860713806,
+        "stop" : 1614860714485,
+        "duration" : 679
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System loads an empty Bank Guarantee Input Page",
+      "time" : {
+        "start" : 1614860714486,
+        "stop" : 1614860714805,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  user fills Obligor field with valid data",
+      "time" : {
+        "start" : 1614860714806,
+        "stop" : 1614860716082,
+        "duration" : 1276
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Applicant (50M) field with valid data",
+      "time" : {
+        "start" : 1614860716082,
+        "stop" : 1614860717130,
+        "duration" : 1048
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Guarantor field with valid data",
+      "time" : {
+        "start" : 1614860717130,
+        "stop" : 1614860718142,
+        "duration" : 1012
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Beneficiary (59) field with valid data",
+      "time" : {
+        "start" : 1614860718142,
+        "stop" : 1614860719141,
+        "duration" : 999
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user check Form of Instrument (22E) radio-button with value DIRECT",
+      "time" : {
+        "start" : 1614860719141,
+        "stop" : 1614860719240,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Type of Guarantee (22K) field with valid data",
+      "time" : {
+        "start" : 1614860719241,
+        "stop" : 1614860721102,
+        "duration" : 1861
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Wording of Guarantee (22J) field with valid data",
+      "time" : {
+        "start" : 1614860721102,
+        "stop" : 1614860722953,
+        "duration" : 1851
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Nominal Amount & Currency (39P) field with valid data",
+      "time" : {
+        "start" : 1614860722953,
+        "stop" : 1614860724918,
+        "duration" : 1965
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Applicable Rules (40C) field with valid data",
+      "time" : {
+        "start" : 1614860724918,
+        "stop" : 1614860726794,
+        "duration" : 1876
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user check Validity (23B) radio-button with value LIMITED",
+      "time" : {
+        "start" : 1614860726794,
+        "stop" : 1614860726866,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Expiry Date (31L) field with tomorrow date",
+      "time" : {
+        "start" : 1614860726866,
+        "stop" : 1614860727014,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Reference Type field with valid data",
+      "time" : {
+        "start" : 1614860727014,
+        "stop" : 1614860728797,
+        "duration" : 1783
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user check Delivery Type radio-button with value DIGITAL GUARANTEE",
+      "time" : {
+        "start" : 1614860728797,
+        "stop" : 1614860728878,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills GVP Delivery field with valid data",
+      "time" : {
+        "start" : 1614860728879,
+        "stop" : 1614860730647,
+        "duration" : 1768
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT click on [SAVE] button from Guarantee Input Page",
+      "time" : {
+        "start" : 1614860730647,
+        "stop" : 1614860730722,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT click on [YES] button from Guarantee Registration Popup",
+      "time" : {
+        "start" : 1614860730722,
+        "stop" : 1614860730820,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System sets Guarantee status to DRAFT",
+      "time" : {
+        "start" : 1614860730820,
+        "stop" : 1614860731899,
+        "duration" : 1079
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Guarantee status font color is GRAY",
+      "time" : {
+        "start" : 1614860731899,
+        "stop" : 1614860731914,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT click [EDIT] button from Guarantee View Page",
+      "time" : {
+        "start" : 1614860731915,
+        "stop" : 1614860731985,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Instrument Purpose (26D) field with valid data",
+      "time" : {
+        "start" : 1614860731985,
+        "stop" : 1614860733062,
+        "duration" : 1077
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT click [SAVE] button from Guarantee View Page",
+      "time" : {
+        "start" : 1614860733062,
+        "stop" : 1614860733150,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Assigns Guarantee request a unique id",
+      "time" : {
+        "start" : 1614860733151,
+        "stop" : 1614860733185,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System sets Guarantee status to NEW",
+      "time" : {
+        "start" : 1614860733185,
+        "stop" : 1614860733808,
+        "duration" : 623
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Guarantee status font color is PURPLE",
+      "time" : {
+        "start" : 1614860733808,
+        "stop" : 1614860733829,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  system loads Guarantee Request View Page",
+      "time" : {
+        "start" : 1614860733829,
+        "stop" : 1614860734304,
+        "duration" : 475
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Guarantee data matches with default mandatory values from Guarantee Input Page",
+      "time" : {
+        "start" : 1614860734304,
+        "stop" : 1614860735018,
+        "duration" : 714
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 30,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "LambdaGlue.java:252",
+    "time" : {
+      "start" : 1614860735018,
+      "stop" : 1614860735626,
+      "duration" : 608
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "LambdaGlue.java:252",
+    "time" : {
+      "start" : 1614860735626,
+      "stop" : 1614860735626,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "E2E"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "tag",
+    "value" : "CreateGuaranteeRequest"
+  }, {
+    "name" : "tag",
+    "value" : "Regression2"
+  }, {
+    "name" : "host",
+    "value" : "LP20094"
+  }, {
+    "name" : "thread",
+    "value" : "24536@LP20094.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "UC.010 Create Guarantee Request (by applicant)"
+  }, {
+    "name" : "story",
+    "value" : "Bank Guarantee Positive flow default mandatory fields GVP-235"
+  }, {
+    "name" : "suite",
+    "value" : "UC.010 Create Guarantee Request (by applicant)"
+  }, {
+    "name" : "testClass",
+    "value" : "Bank Guarantee Positive flow default mandatory fields GVP-235"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:test/resources/features/registerHeadOffice_UC001/CreateGuranteeRequest.feature"
+  }, {
+    "name" : "package",
+    "value" : "test.resources.features.registerHeadOffice_UC001.CreateGuranteeRequest_feature.UC.010 Create Guarantee Request (by applicant)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "type",
+    "value" : "Bank Guarantee"
+  } ],
+  "links" : [ {
+    "name" : "GVP-235",
+    "url" : "https://gvp.atlassian.net/browse/GVP-235",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cead682e416866f4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: GuaranteeRequestViewPage.closeBtn (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1614860633810,
+        "stop" : 1614860651944,
+        "duration" : 18134
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Regression2", "Regression", "E2E", "CreateGuaranteeRequest" ]
+  },
+  "source" : "3e92e46957d7aae1.json",
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ "Bank Guarantee" ]
+}

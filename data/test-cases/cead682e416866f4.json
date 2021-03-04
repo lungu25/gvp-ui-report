@@ -1,0 +1,706 @@
+{
+  "uid" : "cead682e416866f4",
+  "name" : "Bank Guarantee Positive flow default mandatory fields GVP-235",
+  "fullName" : "UC.010 Create Guarantee Request (by applicant): Bank Guarantee Positive flow default mandatory fields GVP-235",
+  "historyId" : "ce9bbb28c460cc48de70aa1213ef6e4a",
+  "time" : {
+    "start" : 1614860633810,
+    "stop" : 1614860651944,
+    "duration" : 18134
+  },
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Expected condition failed: waiting for element to be clickable: GuaranteeRequestViewPage.closeBtn (tried for 15 second(s) with 500 milliseconds interval)",
+    "trace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: GuaranteeRequestViewPage.closeBtn (tried for 15 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1.invoke(WaitForCondition.kt:29)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:25)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:18)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt:43)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt.waitForElementClickableGeneric(WaitForElementClickable.kt:42)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt:28)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOnGeneric(ClickOn.kt:27)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn(ClickOn.kt:15)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn$default(ClickOn.kt:14)\r\n\tat stepdefs.LoginStepDefs$2.accept(LoginStepDefs.kt:33)\r\n\tat ✽.APPLICANT navigates to the Dashboard Page(file:test/resources/features/registerHeadOffice_UC001/CreateGuranteeRequest.feature:9)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Could not find: GuaranteeRequestViewPage.closeBtn\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LP20094', ip: '10.102.20.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'\nDriver info: driver.version: unknown\r\n\tat actionPatternSteps.utils.selenium.GetElementKt.getElement(GetElement.kt:22)\r\n\tat actionPatternSteps.utils.selenium.GetElementKt.getElement(GetElement.kt:17)\r\n\tat actionPatternSteps.actions.FindKt$findGeneric$1.invoke(Find.kt:146)\r\n\tat actionPatternSteps.actions.FindKt$findGeneric$1.invoke(Find.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.FindKt.findGeneric(Find.kt:144)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1$1.invoke(WaitForElementClickable.kt:50)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1$1.apply(WaitForCondition.kt:32)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1$1.apply(WaitForCondition.kt:29)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1.invoke(WaitForCondition.kt:29)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:25)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:18)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt:43)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt.waitForElementClickableGeneric(WaitForElementClickable.kt:42)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt:28)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOnGeneric(ClickOn.kt:27)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn(ClickOn.kt:15)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn$default(ClickOn.kt:14)\r\n\tat stepdefs.LoginStepDefs$2.accept(LoginStepDefs.kt:33)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java8.Java8StepDefinition.execute(Java8StepDefinition.java:113)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:97)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)\r\n\tat java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Iterator.forEachRemaining(Iterator.java:116)\r\n\tat java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)\r\n\tat java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)\r\n\tat java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)\r\n\tat org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)\r\n\tat org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\r\n\tat com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "LambdaGlue.java:22",
+    "time" : {
+      "start" : 1614860633812,
+      "stop" : 1614860635961,
+      "duration" : 2149
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "LambdaGlue.java:22",
+    "time" : {
+      "start" : 1614860635962,
+      "stop" : 1614860635966,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "Expected condition failed: waiting for element to be clickable: GuaranteeRequestViewPage.closeBtn (tried for 15 second(s) with 500 milliseconds interval)",
+      "trace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: GuaranteeRequestViewPage.closeBtn (tried for 15 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1.invoke(WaitForCondition.kt:29)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:25)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:18)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt:43)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt.waitForElementClickableGeneric(WaitForElementClickable.kt:42)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt:28)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOnGeneric(ClickOn.kt:27)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn(ClickOn.kt:15)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn$default(ClickOn.kt:14)\r\n\tat stepdefs.LoginStepDefs$2.accept(LoginStepDefs.kt:33)\r\n\tat ✽.APPLICANT navigates to the Dashboard Page(file:test/resources/features/registerHeadOffice_UC001/CreateGuranteeRequest.feature:9)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Could not find: GuaranteeRequestViewPage.closeBtn\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LP20094', ip: '10.102.20.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'\nDriver info: driver.version: unknown\r\n\tat actionPatternSteps.utils.selenium.GetElementKt.getElement(GetElement.kt:22)\r\n\tat actionPatternSteps.utils.selenium.GetElementKt.getElement(GetElement.kt:17)\r\n\tat actionPatternSteps.actions.FindKt$findGeneric$1.invoke(Find.kt:146)\r\n\tat actionPatternSteps.actions.FindKt$findGeneric$1.invoke(Find.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.FindKt.findGeneric(Find.kt:144)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1$1.invoke(WaitForElementClickable.kt:50)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1$1.apply(WaitForCondition.kt:32)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1$1.apply(WaitForCondition.kt:29)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1.invoke(WaitForCondition.kt:29)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:25)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:18)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt:43)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt.waitForElementClickableGeneric(WaitForElementClickable.kt:42)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt:28)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOnGeneric(ClickOn.kt:27)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn(ClickOn.kt:15)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn$default(ClickOn.kt:14)\r\n\tat stepdefs.LoginStepDefs$2.accept(LoginStepDefs.kt:33)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java8.Java8StepDefinition.execute(Java8StepDefinition.java:113)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:97)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)\r\n\tat java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Iterator.forEachRemaining(Iterator.java:116)\r\n\tat java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)\r\n\tat java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)\r\n\tat java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)\r\n\tat org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)\r\n\tat org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\r\n\tat com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\n",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Given  APPLICANT navigates to the Dashboard Page",
+      "time" : {
+        "start" : 1614860635968,
+        "stop" : 1614860651291,
+        "duration" : 15323
+      },
+      "status" : "broken",
+      "statusDetails" : {
+        "message" : "Expected condition failed: waiting for element to be clickable: GuaranteeRequestViewPage.closeBtn (tried for 15 second(s) with 500 milliseconds interval)",
+        "trace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: GuaranteeRequestViewPage.closeBtn (tried for 15 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1.invoke(WaitForCondition.kt:29)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:25)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:18)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt:43)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt.waitForElementClickableGeneric(WaitForElementClickable.kt:42)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt:28)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOnGeneric(ClickOn.kt:27)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn(ClickOn.kt:15)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn$default(ClickOn.kt:14)\r\n\tat stepdefs.LoginStepDefs$2.accept(LoginStepDefs.kt:33)\r\n\tat ✽.APPLICANT navigates to the Dashboard Page(file:test/resources/features/registerHeadOffice_UC001/CreateGuranteeRequest.feature:9)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Could not find: GuaranteeRequestViewPage.closeBtn\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LP20094', ip: '10.102.20.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'\nDriver info: driver.version: unknown\r\n\tat actionPatternSteps.utils.selenium.GetElementKt.getElement(GetElement.kt:22)\r\n\tat actionPatternSteps.utils.selenium.GetElementKt.getElement(GetElement.kt:17)\r\n\tat actionPatternSteps.actions.FindKt$findGeneric$1.invoke(Find.kt:146)\r\n\tat actionPatternSteps.actions.FindKt$findGeneric$1.invoke(Find.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.FindKt.findGeneric(Find.kt:144)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1$1.invoke(WaitForElementClickable.kt:50)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1$1.apply(WaitForCondition.kt:32)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1$1.apply(WaitForCondition.kt:29)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1.invoke(WaitForCondition.kt:29)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:25)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:18)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt:43)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt.waitForElementClickableGeneric(WaitForElementClickable.kt:42)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt:28)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOnGeneric(ClickOn.kt:27)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn(ClickOn.kt:15)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn$default(ClickOn.kt:14)\r\n\tat stepdefs.LoginStepDefs$2.accept(LoginStepDefs.kt:33)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java8.Java8StepDefinition.execute(Java8StepDefinition.java:113)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:97)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)\r\n\tat java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Iterator.forEachRemaining(Iterator.java:116)\r\n\tat java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)\r\n\tat java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)\r\n\tat java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)\r\n\tat org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)\r\n\tat org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\r\n\tat com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\n",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT click on [REQUEST ISSUANCE] button from header",
+      "time" : {
+        "start" : 1614860651292,
+        "stop" : 1614860651295,
+        "duration" : 3
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT picks Bank Guarantee",
+      "time" : {
+        "start" : 1614860651295,
+        "stop" : 1614860651296,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System loads an empty Bank Guarantee Input Page",
+      "time" : {
+        "start" : 1614860651297,
+        "stop" : 1614860651298,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  user fills Obligor field with valid data",
+      "time" : {
+        "start" : 1614860651298,
+        "stop" : 1614860651299,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Applicant (50M) field with valid data",
+      "time" : {
+        "start" : 1614860651300,
+        "stop" : 1614860651301,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Guarantor field with valid data",
+      "time" : {
+        "start" : 1614860651301,
+        "stop" : 1614860651302,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Beneficiary (59) field with valid data",
+      "time" : {
+        "start" : 1614860651303,
+        "stop" : 1614860651304,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user check Form of Instrument (22E) radio-button with value DIRECT",
+      "time" : {
+        "start" : 1614860651305,
+        "stop" : 1614860651306,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Type of Guarantee (22K) field with valid data",
+      "time" : {
+        "start" : 1614860651306,
+        "stop" : 1614860651307,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Wording of Guarantee (22J) field with valid data",
+      "time" : {
+        "start" : 1614860651308,
+        "stop" : 1614860651309,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Nominal Amount & Currency (39P) field with valid data",
+      "time" : {
+        "start" : 1614860651310,
+        "stop" : 1614860651311,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Applicable Rules (40C) field with valid data",
+      "time" : {
+        "start" : 1614860651311,
+        "stop" : 1614860651312,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user check Validity (23B) radio-button with value LIMITED",
+      "time" : {
+        "start" : 1614860651313,
+        "stop" : 1614860651314,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Expiry Date (31L) field with tomorrow date",
+      "time" : {
+        "start" : 1614860651314,
+        "stop" : 1614860651315,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Reference Type field with valid data",
+      "time" : {
+        "start" : 1614860651316,
+        "stop" : 1614860651317,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user check Delivery Type radio-button with value DIGITAL GUARANTEE",
+      "time" : {
+        "start" : 1614860651317,
+        "stop" : 1614860651318,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills GVP Delivery field with valid data",
+      "time" : {
+        "start" : 1614860651318,
+        "stop" : 1614860651319,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT click on [SAVE] button from Guarantee Input Page",
+      "time" : {
+        "start" : 1614860651319,
+        "stop" : 1614860651320,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT click on [YES] button from Guarantee Registration Popup",
+      "time" : {
+        "start" : 1614860651320,
+        "stop" : 1614860651320,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System sets Guarantee status to DRAFT",
+      "time" : {
+        "start" : 1614860651320,
+        "stop" : 1614860651321,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Guarantee status font color is GRAY",
+      "time" : {
+        "start" : 1614860651321,
+        "stop" : 1614860651322,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT click [EDIT] button from Guarantee View Page",
+      "time" : {
+        "start" : 1614860651322,
+        "stop" : 1614860651322,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  user fills Instrument Purpose (26D) field with valid data",
+      "time" : {
+        "start" : 1614860651323,
+        "stop" : 1614860651323,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  APPLICANT click [SAVE] button from Guarantee View Page",
+      "time" : {
+        "start" : 1614860651323,
+        "stop" : 1614860651324,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Assigns Guarantee request a unique id",
+      "time" : {
+        "start" : 1614860651324,
+        "stop" : 1614860651325,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  System sets Guarantee status to NEW",
+      "time" : {
+        "start" : 1614860651325,
+        "stop" : 1614860651325,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Guarantee status font color is PURPLE",
+      "time" : {
+        "start" : 1614860651326,
+        "stop" : 1614860651326,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  system loads Guarantee Request View Page",
+      "time" : {
+        "start" : 1614860651326,
+        "stop" : 1614860651327,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  Guarantee data matches with default mandatory values from Guarantee Input Page",
+      "time" : {
+        "start" : 1614860651327,
+        "stop" : 1614860651328,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 30,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "LambdaGlue.java:252",
+    "time" : {
+      "start" : 1614860651328,
+      "stop" : 1614860651940,
+      "duration" : 612
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "LambdaGlue.java:252",
+    "time" : {
+      "start" : 1614860651940,
+      "stop" : 1614860651941,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "E2E"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "tag",
+    "value" : "CreateGuaranteeRequest"
+  }, {
+    "name" : "tag",
+    "value" : "Regression2"
+  }, {
+    "name" : "host",
+    "value" : "LP20094"
+  }, {
+    "name" : "thread",
+    "value" : "18644@LP20094.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "UC.010 Create Guarantee Request (by applicant)"
+  }, {
+    "name" : "story",
+    "value" : "Bank Guarantee Positive flow default mandatory fields GVP-235"
+  }, {
+    "name" : "suite",
+    "value" : "UC.010 Create Guarantee Request (by applicant)"
+  }, {
+    "name" : "testClass",
+    "value" : "Bank Guarantee Positive flow default mandatory fields GVP-235"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:test/resources/features/registerHeadOffice_UC001/CreateGuranteeRequest.feature"
+  }, {
+    "name" : "package",
+    "value" : "test.resources.features.registerHeadOffice_UC001.CreateGuranteeRequest_feature.UC.010 Create Guarantee Request (by applicant)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "type",
+    "value" : "Bank Guarantee"
+  } ],
+  "links" : [ {
+    "name" : "GVP-235",
+    "url" : "https://gvp.atlassian.net/browse/GVP-235",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ "Regression2", "Regression", "E2E", "CreateGuaranteeRequest" ]
+  },
+  "source" : "cead682e416866f4.json",
+  "statusDetailsSafe" : {
+    "message" : "Expected condition failed: waiting for element to be clickable: GuaranteeRequestViewPage.closeBtn (tried for 15 second(s) with 500 milliseconds interval)",
+    "trace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: GuaranteeRequestViewPage.closeBtn (tried for 15 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1.invoke(WaitForCondition.kt:29)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:25)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:18)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt:43)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt.waitForElementClickableGeneric(WaitForElementClickable.kt:42)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt:28)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOnGeneric(ClickOn.kt:27)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn(ClickOn.kt:15)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn$default(ClickOn.kt:14)\r\n\tat stepdefs.LoginStepDefs$2.accept(LoginStepDefs.kt:33)\r\n\tat ✽.APPLICANT navigates to the Dashboard Page(file:test/resources/features/registerHeadOffice_UC001/CreateGuranteeRequest.feature:9)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Could not find: GuaranteeRequestViewPage.closeBtn\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LP20094', ip: '10.102.20.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'\nDriver info: driver.version: unknown\r\n\tat actionPatternSteps.utils.selenium.GetElementKt.getElement(GetElement.kt:22)\r\n\tat actionPatternSteps.utils.selenium.GetElementKt.getElement(GetElement.kt:17)\r\n\tat actionPatternSteps.actions.FindKt$findGeneric$1.invoke(Find.kt:146)\r\n\tat actionPatternSteps.actions.FindKt$findGeneric$1.invoke(Find.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.FindKt.findGeneric(Find.kt:144)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1$1.invoke(WaitForElementClickable.kt:50)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1$1.apply(WaitForCondition.kt:32)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1$1.apply(WaitForCondition.kt:29)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat actionPatternSteps.actions.WaitForConditionKt$waitForCondition$1.invoke(WaitForCondition.kt:29)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:25)\r\n\tat actionPatternSteps.actions.WaitForConditionKt.waitForCondition(WaitForCondition.kt:18)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt:43)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt$waitForElementClickableGeneric$1.invoke(WaitForElementClickable.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.WaitForElementClickableKt.waitForElementClickableGeneric(WaitForElementClickable.kt:42)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt:28)\r\n\tat actionPatternSteps.actions.ClickOnKt$clickOnGeneric$1.invoke(ClickOn.kt)\r\n\tat actionPatternSteps.utils.StepLogger.step$e2e_ui_tests(StepLogger.kt:20)\r\n\tat actionPatternSteps.actions.StepKt.step(Step.kt:7)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOnGeneric(ClickOn.kt:27)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn(ClickOn.kt:15)\r\n\tat actionPatternSteps.actions.ClickOnKt.clickOn$default(ClickOn.kt:14)\r\n\tat stepdefs.LoginStepDefs$2.accept(LoginStepDefs.kt:33)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java8.Java8StepDefinition.execute(Java8StepDefinition.java:113)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:97)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)\r\n\tat java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Iterator.forEachRemaining(Iterator.java:116)\r\n\tat java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)\r\n\tat java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)\r\n\tat java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)\r\n\tat org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)\r\n\tat org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\r\n\tat com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\n",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : false,
+    "present" : true
+  },
+  "parameterValues" : [ "Bank Guarantee" ]
+}

@@ -4,59 +4,81 @@
     "testRuns" : [ ],
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 33,
       "unknown" : 0,
-      "total" : 16
+      "total" : 34
     },
     "time" : {
-      "start" : 1612440491176,
-      "stop" : 1612440820824,
-      "duration" : 329648,
-      "minDuration" : 13897,
-      "maxDuration" : 20686,
-      "sumDuration" : 282209
+      "start" : 1614858844810,
+      "stop" : 1614860735627,
+      "duration" : 1890817,
+      "minDuration" : 31079,
+      "maxDuration" : 84607,
+      "sumDuration" : 1805651
     }
   },
   "environment" : [ ],
   "suites" : {
-    "total" : 1,
+    "total" : 2,
     "items" : [ {
+      "uid" : "3923983670e6530a141ac6b2b6d7e46c",
+      "name" : "UC.010 Create Guarantee Request (by applicant)",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
       "uid" : "6884d2cd37de087eee00094163f67fd4",
       "name" : "UC.001 Register Head Office [HO] (by sysAdmin)",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 16,
+        "passed" : 32,
         "unknown" : 0,
-        "total" : 16
+        "total" : 32
       }
     } ]
   },
   "history-trend" : [ {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 33,
       "unknown" : 0,
-      "total" : 16
+      "total" : 34
     }
   } ],
   "behaviors" : {
-    "total" : 1,
+    "total" : 2,
     "items" : [ {
+      "uid" : "80a31ba6a363fd36f59ec8a39e789951",
+      "name" : "UC.010 Create Guarantee Request (by applicant)",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
       "uid" : "5aed00e8822a0c4ed25363157006da21",
       "name" : "UC.001 Register Head Office [HO] (by sysAdmin)",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 15,
+        "passed" : 31,
         "unknown" : 0,
-        "total" : 15
+        "total" : 31
       }
     } ]
   },
@@ -66,8 +88,19 @@
     "buildName" : "Guarantee Vault Platform Automation Tests"
   } ],
   "categories" : {
-    "total" : 0,
-    "items" : [ ]
+    "total" : 1,
+    "items" : [ {
+      "uid" : "bdbf199525818fae7a8651db9eafe741",
+      "name" : "Test defects",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
   },
   "launches" : [ ]
 }

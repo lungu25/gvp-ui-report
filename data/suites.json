@@ -4,198 +4,418 @@
   "children" : [ {
     "name" : "UC.001 Register Head Office [HO] (by sysAdmin)",
     "children" : [ {
-      "name" : "CORPORATE registration with ENABLED state for 4-Eyes Approval and DISABLED state for Two-Steps Verifications GVP-2583",
-      "uid" : "226273618a63ea1b",
-      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612440491176,
-        "stop" : 1612440508855,
-        "duration" : 17679
-      },
-      "flaky" : false,
-      "parameters" : [ "DISABLED", "ENABLED", "CORPORATE" ]
-    }, {
       "name" : "CORPORATE registration with DISABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
-      "uid" : "edd60b940d86b370",
+      "uid" : "580c2e3e01a6caf6",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440512042,
-        "stop" : 1612440528467,
-        "duration" : 16425
+        "start" : 1614858844810,
+        "stop" : 1614858888656,
+        "duration" : 43846
       },
       "flaky" : false,
       "parameters" : [ "ENABLED", "DISABLED", "CORPORATE" ]
     }, {
-      "name" : "CORPORATE registration with ENABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
-      "uid" : "b6d9df3db407728f",
+      "name" : "FINANCIAL INSTITUTION registration with ENABLED state for 4-Eyes Approval and DISABLED state for Two-Steps Verifications GVP-2583",
+      "uid" : "858c252f633b68bb",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440531597,
-        "stop" : 1612440549055,
-        "duration" : 17458
+        "start" : 1614858846100,
+        "stop" : 1614858902215,
+        "duration" : 56115
+      },
+      "flaky" : false,
+      "parameters" : [ "DISABLED", "ENABLED", "FINANCIAL INSTITUTION" ]
+    }, {
+      "name" : "CORPORATE registration with ENABLED state for 4-Eyes Approval and DISABLED state for Two-Steps Verifications GVP-2583",
+      "uid" : "ef4bbffc9c91e119",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614858846152,
+        "stop" : 1614858889309,
+        "duration" : 43157
+      },
+      "flaky" : false,
+      "parameters" : [ "DISABLED", "ENABLED", "CORPORATE" ]
+    }, {
+      "name" : "CORPORATE registration with ENABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+      "uid" : "5eae3ccf87685b02",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614858846332,
+        "stop" : 1614858887459,
+        "duration" : 41127
       },
       "flaky" : false,
       "parameters" : [ "ENABLED", "ENABLED", "CORPORATE" ]
     }, {
       "name" : "CORPORATE registration with DISABLED state for 4-Eyes Approval and DISABLED state for Two-Steps Verifications GVP-2583",
-      "uid" : "c867cb4699c8224",
+      "uid" : "bc24291637973f71",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440552227,
-        "stop" : 1612440569212,
-        "duration" : 16985
+        "start" : 1614858846949,
+        "stop" : 1614858903000,
+        "duration" : 56051
       },
       "flaky" : false,
       "parameters" : [ "DISABLED", "DISABLED", "CORPORATE" ]
     }, {
-      "name" : "FINANCIAL INSTITUTION registration with ENABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
-      "uid" : "9e1c0bff3fd76b0b",
-      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612440572425,
-        "stop" : 1612440588812,
-        "duration" : 16387
-      },
-      "flaky" : false,
-      "parameters" : [ "ENABLED", "ENABLED", "FINANCIAL INSTITUTION" ]
-    }, {
       "name" : "FINANCIAL INSTITUTION registration with DISABLED state for 4-Eyes Approval and DISABLED state for Two-Steps Verifications GVP-2583",
-      "uid" : "92fb9e87d86dbc88",
+      "uid" : "32c167361c55926d",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440591964,
-        "stop" : 1612440607892,
-        "duration" : 15928
+        "start" : 1614858846963,
+        "stop" : 1614858902235,
+        "duration" : 55272
       },
       "flaky" : false,
       "parameters" : [ "DISABLED", "DISABLED", "FINANCIAL INSTITUTION" ]
     }, {
-      "name" : "FINANCIAL INSTITUTION registration with ENABLED state for 4-Eyes Approval and DISABLED state for Two-Steps Verifications GVP-2583",
-      "uid" : "3fd369c73a88b44a",
+      "name" : "FINANCIAL INSTITUTION registration with ENABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+      "uid" : "2d39fab9263ca660",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440611044,
-        "stop" : 1612440627863,
-        "duration" : 16819
+        "start" : 1614858847589,
+        "stop" : 1614858888932,
+        "duration" : 41343
       },
       "flaky" : false,
-      "parameters" : [ "DISABLED", "ENABLED", "FINANCIAL INSTITUTION" ]
+      "parameters" : [ "ENABLED", "ENABLED", "FINANCIAL INSTITUTION" ]
     }, {
-      "name" : "FINANCIAL INSTITUTION registration with DISABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
-      "uid" : "e7e33194160cd1e8",
+      "name" : "UI default state for 4-Eyes Approval and Two-Steps Verifications GVP-2581",
+      "uid" : "c031808b667de741",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440631040,
-        "stop" : 1612440647892,
-        "duration" : 16852
+        "start" : 1614858899306,
+        "stop" : 1614858930385,
+        "duration" : 31079
+      },
+      "flaky" : false,
+      "parameters" : [ "CORPORATE" ]
+    }, {
+      "name" : "FINANCIAL INSTITUTION registration with DISABLED state for 4-Eyes Approval and ENABLED state for Two-Steps Verifications GVP-2583",
+      "uid" : "c413fe998fad7207",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614858900457,
+        "stop" : 1614858955952,
+        "duration" : 55495
       },
       "flaky" : false,
       "parameters" : [ "ENABLED", "DISABLED", "FINANCIAL INSTITUTION" ]
     }, {
       "name" : "UI default state for 4-Eyes Approval and Two-Steps Verifications GVP-2581",
-      "uid" : "d418c037201ef0e0",
+      "uid" : "a365330ba841bd3b",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440651065,
-        "stop" : 1612440664962,
-        "duration" : 13897
+        "start" : 1614858901066,
+        "stop" : 1614858941997,
+        "duration" : 40931
       },
       "flaky" : false,
-      "parameters" : [ "CORPORATE" ]
+      "parameters" : [ "FINANCIAL INSTITUTION" ]
     }, {
-      "name" : "UI default state for 4-Eyes Approval and Two-Steps Verifications GVP-2581",
-      "uid" : "79509bf94ddb15b3",
+      "name" : "Company Type View FINANCIAL INSTITUTION GVP-1080",
+      "uid" : "76778f6539aab0a4",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440668159,
-        "stop" : 1612440682501,
-        "duration" : 14342
+        "start" : 1614858902895,
+        "stop" : 1614858968832,
+        "duration" : 65937
       },
       "flaky" : false,
       "parameters" : [ "FINANCIAL INSTITUTION" ]
     }, {
       "name" : "Company Type View CORPORATE GVP-1080",
-      "uid" : "6837f4d6edc31e8e",
+      "uid" : "cc3038f0d15403af",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440685642,
-        "stop" : 1612440704276,
-        "duration" : 18634
+        "start" : 1614858903091,
+        "stop" : 1614858968935,
+        "duration" : 65844
       },
       "flaky" : false,
       "parameters" : [ "CORPORATE" ]
     }, {
-      "name" : "Company Type View FINANCIAL INSTITUTION GVP-1080",
-      "uid" : "d44ff3739f72c1f6",
-      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612440707462,
-        "stop" : 1612440726534,
-        "duration" : 19072
-      },
-      "flaky" : false,
-      "parameters" : [ "FINANCIAL INSTITUTION" ]
-    }, {
       "name" : "Horizontal Logo CORPORATE GVP-1012",
-      "uid" : "c07a3f04c0460879",
+      "uid" : "28b28f59ec87e161",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440729671,
-        "stop" : 1612440749985,
-        "duration" : 20314
+        "start" : 1614858919392,
+        "stop" : 1614858968811,
+        "duration" : 49419
       },
       "flaky" : false,
       "parameters" : [ "CORPORATE" ]
     }, {
       "name" : "Horizontal Logo FINANCIAL INSTITUTION GVP-1012",
-      "uid" : "c757a1a834005d4",
+      "uid" : "5d6aff72a21c3e84",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440753151,
-        "stop" : 1612440773358,
-        "duration" : 20207
+        "start" : 1614858919942,
+        "stop" : 1614858981759,
+        "duration" : 61817
       },
       "flaky" : false,
       "parameters" : [ "FINANCIAL INSTITUTION" ]
     }, {
       "name" : "Square Logo CORPORATE GVP-1011",
-      "uid" : "7662a410aae7fbc5",
+      "uid" : "c869b64993ca07c9",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440776491,
-        "stop" : 1612440797015,
-        "duration" : 20524
+        "start" : 1614858921664,
+        "stop" : 1614858968934,
+        "duration" : 47270
       },
       "flaky" : false,
       "parameters" : [ "CORPORATE" ]
     }, {
       "name" : "Square Logo FINANCIAL INSTITUTION GVP-1011",
-      "uid" : "da93b9aa3b0cbc8",
+      "uid" : "a5906e1bf18c83ed",
       "parentUid" : "6884d2cd37de087eee00094163f67fd4",
       "status" : "passed",
       "time" : {
-        "start" : 1612440800138,
-        "stop" : 1612440820824,
-        "duration" : 20686
+        "start" : 1614858942509,
+        "stop" : 1614859027116,
+        "duration" : 84607
       },
       "flaky" : false,
       "parameters" : [ "FINANCIAL INSTITUTION" ]
+    }, {
+      "name" : "Edit CORPORATE GVP-988",
+      "uid" : "2817bc92ca9eafd6",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614858956742,
+        "stop" : 1614859019807,
+        "duration" : 63065
+      },
+      "flaky" : false,
+      "parameters" : [ "CORPORATE" ]
+    }, {
+      "name" : "Edit FINANCIAL INSTITUTION GVP-988",
+      "uid" : "c86554454ebf2256",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614858969896,
+        "stop" : 1614859026031,
+        "duration" : 56135
+      },
+      "flaky" : false,
+      "parameters" : [ "FINANCIAL INSTITUTION" ]
+    }, {
+      "name" : "CORPORATE Exception flow Invalid Data cancelling request GVP-987",
+      "uid" : "3900f31ba7059bb9",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614858981988,
+        "stop" : 1614859027556,
+        "duration" : 45568
+      },
+      "flaky" : false,
+      "parameters" : [ "CORPORATE" ]
+    }, {
+      "name" : "CORPORATE Exception flow Invalid Data with corrections GVP-986",
+      "uid" : "fade34adbb3b0b98",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614858982310,
+        "stop" : 1614859027180,
+        "duration" : 44870
+      },
+      "flaky" : false,
+      "parameters" : [ "CORPORATE" ]
+    }, {
+      "name" : "FINANCIAL INSTITUTION Exception flow Invalid Data cancelling request GVP-987",
+      "uid" : "c891e1599146f7ce",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614858982534,
+        "stop" : 1614859026880,
+        "duration" : 44346
+      },
+      "flaky" : false,
+      "parameters" : [ "FINANCIAL INSTITUTION" ]
+    }, {
+      "name" : "FINANCIAL INSTITUTION Exception flow Invalid Data with corrections GVP-986",
+      "uid" : "a54133c9c09eb9cf",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614858982776,
+        "stop" : 1614859027394,
+        "duration" : 44618
+      },
+      "flaky" : false,
+      "parameters" : [ "FINANCIAL INSTITUTION" ]
+    }, {
+      "name" : "CORPORATE Cancel button Alternate flow GVP-979",
+      "uid" : "c050d662ff091f5d",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614858997249,
+        "stop" : 1614859070694,
+        "duration" : 73445
+      },
+      "flaky" : false,
+      "parameters" : [ "CORPORATE" ]
+    }, {
+      "name" : "FINANCIAL INSTITUTION Cancel button Alternate flow GVP-979",
+      "uid" : "6a6173dacce07011",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614859032691,
+        "stop" : 1614859096963,
+        "duration" : 64272
+      },
+      "flaky" : false,
+      "parameters" : [ "FINANCIAL INSTITUTION" ]
+    }, {
+      "name" : "CORPORATE [X] button Alternate flow GVP-983",
+      "uid" : "7be9fc930efdbba0",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614859041420,
+        "stop" : 1614859097272,
+        "duration" : 55852
+      },
+      "flaky" : false,
+      "parameters" : [ "CORPORATE" ]
+    }, {
+      "name" : "FINANCIAL INSTITUTION [X] button Alternate flow GVP-983",
+      "uid" : "c11c88756c956948",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614859042610,
+        "stop" : 1614859097157,
+        "duration" : 54547
+      },
+      "flaky" : false,
+      "parameters" : [ "FINANCIAL INSTITUTION" ]
+    }, {
+      "name" : "CORPORATE Remove attachments and logo GVP-2827",
+      "uid" : "d66ad6ef3a23507",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614859042995,
+        "stop" : 1614859113448,
+        "duration" : 70453
+      },
+      "flaky" : false,
+      "parameters" : [ "CORPORATE" ]
+    }, {
+      "name" : "CORPORATE Main Flow GVP-978",
+      "uid" : "4326049c4b1a85b0",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614859043677,
+        "stop" : 1614859097040,
+        "duration" : 53363
+      },
+      "flaky" : false,
+      "parameters" : [ "CORPORATE" ]
+    }, {
+      "name" : "FINANCIAL INSTITUTION Main Flow GVP-978",
+      "uid" : "8f80dddb2292fb60",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614859044492,
+        "stop" : 1614859098194,
+        "duration" : 53702
+      },
+      "flaky" : false,
+      "parameters" : [ "FINANCIAL INSTITUTION" ]
+    }, {
+      "name" : "FINANCIAL INSTITUTION Remove attachments and logo GVP-2827",
+      "uid" : "e1b15220fbd0a77f",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614859045162,
+        "stop" : 1614859116376,
+        "duration" : 71214
+      },
+      "flaky" : false,
+      "parameters" : [ "FINANCIAL INSTITUTION" ]
+    }, {
+      "name" : "FINANCIAL INSTITUTION Update attachments and logo GVP-2862",
+      "uid" : "92d97658683bcd4",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614859083421,
+        "stop" : 1614859134989,
+        "duration" : 51568
+      },
+      "flaky" : false,
+      "parameters" : [ "FINANCIAL INSTITUTION" ]
+    }, {
+      "name" : "CORPORATE Update attachments and logo GVP-2862",
+      "uid" : "b47ded73d629a815",
+      "parentUid" : "6884d2cd37de087eee00094163f67fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614859106775,
+        "stop" : 1614859151351,
+        "duration" : 44576
+      },
+      "flaky" : false,
+      "parameters" : [ "CORPORATE" ]
     } ],
     "uid" : "6884d2cd37de087eee00094163f67fd4"
+  }, {
+    "name" : "UC.010 Create Guarantee Request (by applicant)",
+    "children" : [ {
+      "name" : "Bank Guarantee Positive flow default mandatory fields GVP-235",
+      "uid" : "32df8e82eb2218d9",
+      "parentUid" : "3923983670e6530a141ac6b2b6d7e46c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1614858846157,
+        "stop" : 1614858887179,
+        "duration" : 41022
+      },
+      "flaky" : false,
+      "parameters" : [ "Bank Guarantee" ]
+    }, {
+      "name" : "Bank Guarantee Positive flow default mandatory fields GVP-235",
+      "uid" : "3e92e46957d7aae1",
+      "parentUid" : "3923983670e6530a141ac6b2b6d7e46c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614860701902,
+        "stop" : 1614860735627,
+        "duration" : 33725
+      },
+      "flaky" : true,
+      "parameters" : [ "Bank Guarantee" ]
+    } ],
+    "uid" : "3923983670e6530a141ac6b2b6d7e46c"
   } ]
 }
